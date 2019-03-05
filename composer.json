@@ -1,5 +1,5 @@
 {
-    "name": "voerro/laravel-visitor-tracker",
+    "name": "sven-reichert/laravel-visitor-tracker",
     "description": "Visitor tracker and statistics for Laravel 5",
     "type": "library",
     "license": "MIT",
