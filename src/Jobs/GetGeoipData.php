@@ -64,6 +64,11 @@ class GetGeoipData implements ShouldQueue
         }
     }
 
+    public function shouldQueue($event)
+    {
+        return config('visitortracker.geoip_on');
+    }
+
     /**
      * Determine if the request/visit should be recorded
      *
